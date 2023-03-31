@@ -24,7 +24,9 @@ main{
     width: 55%;
     margin: auto;
     height: 720px;
-    border: #8a8783 2px solid;
+    border-right: #8a8783 2px solid;
+    border-left: #8a8783 2px solid;
+    border-bottom: #8a8783 2px solid;
     display: flex;
     border-radius: 1%;
 }
@@ -85,9 +87,9 @@ section h1:hover{
 }
 
 
-
 .directions{
     flex-basis: 10%;
+    border-radius: 1%;
 }
 
 .ingredients h2{
