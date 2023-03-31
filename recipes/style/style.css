@@ -39,6 +39,7 @@ main > section{
 section h1{
     font-family: 'Caveat', sans-serif;
     font-size: 45px;
+    margin-top: 2%;
     text-align: center;
     transition: transform .2s;
 }
@@ -52,6 +53,8 @@ section h1:hover{
     background: #fff2df;
     border-radius: 1%;
 }
+
+
 
 
 .ingredients img{
@@ -87,7 +90,7 @@ section h1:hover{
     flex-basis: 10%;
 }
 
-h2{
+.ingredients h2{
     font-family: 'Playfair Display', serif;
     font-weight:300;
     padding-top: 10%;
@@ -132,4 +135,18 @@ h2{
     width: 85%;
     padding-left: 3.5%;
     list-style-position: inside;
+}
+
+.directions img{
+    width: 7%;
+    padding-left: 90%;
+    padding-top: 5%;
+}
+
+.directions h2{
+    font-family: 'Playfair Display', serif;
+    font-weight:300;
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-bottom: 5%;
 }
